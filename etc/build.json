@@ -1,0 +1,19 @@
+{
+    "version" : "1.0.0",
+    "project" : {
+        "name" : "bloop-bsp-example",
+        "directory" : "$ROOT",
+        "sources" : ["$ROOT/src"],
+        "dependencies" : [],
+        "classpath" : ["$CLASSPATH"],
+        "out" : "$ROOT/target",
+        "classesDir" : "$ROOT/target/classes",
+        "scala": {
+            "organization": "scala-lang.org",
+            "name": "scala-compiler",
+            "jars": ["$COMPILER_CLASSPATH"],
+            "options": ["-deprecation"],
+            "version": "2.12.8"
+          }
+    }
+}
